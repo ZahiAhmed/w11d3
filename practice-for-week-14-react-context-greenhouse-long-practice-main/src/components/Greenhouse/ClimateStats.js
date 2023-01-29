@@ -8,7 +8,7 @@ function ClimateStats() {
         Temperature {`${climate.temp}`}°F
       </div>
       <div className="humidity">
-        Humidity {"y"}%
+        Humidity {`${climate.humidity}`}%
       </div>
     </div>
   )
